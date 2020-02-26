@@ -4,6 +4,9 @@ Gibberish (অর্থহীন) Bangla text generator.
 <br />
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/lifeparticle/Aurthohin/issues)
 
+Setup
+============
+
 1. Make aurthohin.rb executable
 
 ```
@@ -56,3 +59,15 @@ chmod +x aurthohin.rb
 ঢঝতল ঙণএমঢঞক
 ঐভঞয় নয়ভঋঐঝয
 ```
+
+Bug Reports and Feature Requests
+============
+Please create an issue with as much information you can. Thank you.
+
+Author
+============
+Mahbub Zaman (https://mahbub.ninja)
+
+License
+============
+MIT License
