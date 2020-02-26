@@ -21,7 +21,7 @@ class Aurthohin
 					"\u09A4", "\u09A5", "\u09A6", "\u09A7", "\u09A8",
 					"\u09AA", "\u09AB", "\u09AC", "\u09AD", "\u09AE",
 					"\u09AF", "\u09B0", "\u09B2", "\u09B6", "\u09B7",
-					"\u09B8", "\u09B9", "\u09DC", "\u09DD", "\u09EF",
+					"\u09B8", "\u09B9", "\u09DC", "\u09DD", "\u09DF",
 					"\u09CE", "\u0982", "\u0983" ]
 
 	def self.generate(line_count, paragraph_count, min_word_length, max_word_length, line_length)
