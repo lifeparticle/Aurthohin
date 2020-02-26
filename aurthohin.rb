@@ -14,8 +14,7 @@ class Aurthohin
 	# 'প', 'ফ', 'ব', 'ভ', 'ম',
 	# 'য', 'র', 'ল', 'শ', 'ষ',
 	# 'স', 'হ', 'ড়', 'ঢ়', 'য়',
-	# 'ৎ',' ং',' ঃ' 
-
+	# 'ৎ',' ং',' ঃ'
 	BANJONBORNO = [ "\u0995", "\u0996", "\u0997", "\u0998", "\u0999",
 					"\u099A", "\u099B", "\u099C", "\u099D", "\u099E",
 					"\u099F", "\u09A0", "\u09A1", "\u09A2", "\u09A3",
@@ -34,9 +33,9 @@ class Aurthohin
 			line_count.times do
 				line = ""
 				while true
-					randome_word = "#{all.sample(rand(min_word_length..max_word_length)).join('')} "
-					if line.length + randome_word.length <= line_length
-						line += "#{randome_word}"
+					random_word = "#{all.sample(rand(min_word_length..max_word_length)).join('')} "
+					if line.length + random_word.length <= line_length
+						line += "#{random_word}"
 					else
 						break
 					end
