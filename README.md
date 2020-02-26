@@ -1,6 +1,8 @@
 # Aurthohin
 Gibberish (অর্থহীন) Bangla text generator.
 
+![অর্থহীন](https://user-images.githubusercontent.com/1612112/75346502-f4c36f00-58f2-11ea-86c9-b77d07f2dfbe.gif)
+
 
 1. Make aurthohin.rb executable
 
