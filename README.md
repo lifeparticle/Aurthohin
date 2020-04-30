@@ -1,7 +1,7 @@
 <h1 align="center">Gibberish (অর্থহীন) Bangla text generator.</h1></br>
 
 <div align="center">
- 
+
 ![অর্থহীন](https://user-images.githubusercontent.com/1612112/75346502-f4c36f00-58f2-11ea-86c9-b77d07f2dfbe.gif)
 </div>
 
@@ -12,57 +12,25 @@
 Setup
 ============
 
-1. Make aurthohin.rb executable
+1. Run the script
 
-```
-chmod +x aurthohin.rb
-```
-
-2. Run the script
-
-```
-./aurthohin.rb
-
-# default values
-# line_count = 3
-# paragraph_count = 5
-# min_word_length = 5
-# max_word_length = 10
-# line_length = 20
-```
-
-```
-কজটগধঊঙ ইছহঠএঘ
-লগষঊওছজ জকঅঝধওয়ত
-ঢঋগওকষঊইঞ
-
-ফরপধষএণখ গড়ডখঘচরজউত
-ঝষধঢ়ল ইঅভপখষঔ
-ঈআটঢ়ছধর ঊটধইঔঐডছং
-
-ঢইঐণচঝঢ়টঠত ঘভঊসৎথঔয
-ঞউঠসছঢ়ঢ কঋপদএ তবংইঐ
-তঃযঢড় ঊগযহরষঔঙঈট
-
-ঊধলৎজসইথদ ডপশঢ়ছদ
-ড়তবঢটই তঙপআঊছহক
- ঃআফবগঔড়নও তমসঋআঝয়রঐ
-
-ঋঢ়ভঙব দকড়ঊঈ ংঝসঢ়ঋর
-নঔউঋহঠফৎদ ধঊংওঋ
-দজতইৎছঠঙট ফগণভডআ
-```
-
-```
+```bash
 ./aurthohin.rb 2 2 4 8 16
 ```
 
-```
+```bash
 এইঅগপউ দঢণষ
 খজএগ ঐরটডজওধ
 
 ঢঝতল ঙণএমঢঞক
 ঐভঞয় নয়ভঋঐঝয
+```
+
+Testing
+============
+
+```bash
+ruby test.rb
 ```
 
 Bug Reports and Feature Requests
