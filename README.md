@@ -12,7 +12,13 @@
 Setup
 ============
 
-1. Run the script
+1. Make aurthohin.rb executable
+
+```
+chmod +x aurthohin.rb
+```
+
+Run the script
 
 ```bash
 ./aurthohin.rb 2 2 4 8 16
