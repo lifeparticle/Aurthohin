@@ -9,10 +9,10 @@ if ARGV.empty?
 	puts "4. maximum word length"
 	puts "5. line length"
 else
-	line_count = ARGV[0].to_i unless ARGV[0].nil?
-	paragraph_count = ARGV[1].to_i unless ARGV[1].nil?
-	min_word_length = ARGV[2].to_i unless ARGV[2].nil?
-	max_word_length = ARGV[3].to_i unless ARGV[3].nil?
-	line_length = ARGV[4].to_i unless ARGV[4].nil?
+	line_count = ARGV.shift.to_i
+	paragraph_count = ARGV.shift.to_i
+	min_word_length = ARGV.shift.to_i
+	max_word_length = ARGV.shift.to_i
+	line_length = ARGV.shift.to_i
 	Generator.generate(line_count, paragraph_count, min_word_length, max_word_length, line_length)
 end

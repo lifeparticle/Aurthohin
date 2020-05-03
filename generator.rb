@@ -19,7 +19,10 @@ class Generator
 					"\u09AA", "\u09AB", "\u09AC", "\u09AD", "\u09AE",
 					"\u09AF", "\u09B0", "\u09B2", "\u09B6", "\u09B7",
 					"\u09B8", "\u09B9", "\u09DC", "\u09DD", "\u09DF",
-					"\u09CE", "\u0982", "\u0983", "\u0981" ]
+					"\u09CE"]
+
+	# Add this in version 2
+	# "\u0982", "\u0983", "\u0981"
 
 
 	def self.data_validation(line_count, paragraph_count, min_word_length, max_word_length, line_length)
